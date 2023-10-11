@@ -15,11 +15,11 @@ import lombok.ToString;
 @NoArgsConstructor //Esta anotacion crea el constructor vacio
 @AllArgsConstructor //Se crea el constructor con todos los argumentos
 @ToString //Se crea el metodo ToString
-public class Estudiante {
+public class Estudiantes2022 {
     //Atibutos de clase
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idEstudiante;
+    private Integer idestudiantes2022;
     private String nombre;
     private String apellido;
     private String telefono;
