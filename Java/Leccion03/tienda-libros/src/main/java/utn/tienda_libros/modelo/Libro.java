@@ -23,6 +23,9 @@ public class Libro {
     Double precio;
     Integer existencias;
 
+    public Libro(Object o, String nombreLibro, String autor, double precio, int existencias) {
+    }
+
     public Integer getIdLibro() {
         return idLibro;
     }
